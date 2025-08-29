@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nested-tictactoe/static/css/main.e6c13ad2.css",
+    "main.js": "/nested-tictactoe/static/js/main.8a96a9ae.js",
+    "static/js/453.97b90a09.chunk.js": "/nested-tictactoe/static/js/453.97b90a09.chunk.js",
+    "index.html": "/nested-tictactoe/index.html",
+    "main.e6c13ad2.css.map": "/nested-tictactoe/static/css/main.e6c13ad2.css.map",
+    "main.8a96a9ae.js.map": "/nested-tictactoe/static/js/main.8a96a9ae.js.map",
+    "453.97b90a09.chunk.js.map": "/nested-tictactoe/static/js/453.97b90a09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8a96a9ae.js"
+  ]
+}
