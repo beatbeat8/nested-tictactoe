@@ -1,0 +1,71 @@
+.nested-board {
+  position: absolute;
+  top: 0; left: 0;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px; /* space between sub-boards */
+  padding: 16px;
+  width: 80vh;
+  height: 80vh;
+  z-index: 2;
+}
+
+.nested-board-row {
+  display: contents; /* lets child grids position as expected */
+}
+
+.board {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  background: transparent;
+  border: transparent;
+  border-radius: 4px;
+}
+
+.nested-board-container {
+  position: relative;
+  width: 80vh; /* match your PNG size */
+  height: 80vh;
+  padding: 16px;
+}
+.board-bg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.game-info {
+  margin-top: 20px;
+  color: white;
+}
+
+h2 {
+  font-family: "Edo Font", sans-serif;
+  font-size: 2.2em;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.play-again-button {
+  background-color: transparent;
+  border: transparent;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.rules-list {
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+  color: white;
+}
+
+li {
+  font-family: "Edo Font", sans-serif;
+  font-size: 1.5em;
+}
